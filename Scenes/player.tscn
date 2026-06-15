@@ -44,7 +44,7 @@ radius = 35.128338
 [node name="Player" type="CharacterBody2D" unique_id=1299776947]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1983167399]
-position = Vector2(44, 38.999992)
+position = Vector2(1, -70.99999)
 scale = Vector2(5.9062505, 5.9062505)
 sprite_frames = SubResource("SpriteFrames_x3wgy")
 animation = &"IDLE"
@@ -52,5 +52,5 @@ autoplay = "IDLE"
 frame_progress = 0.9186396
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=150357702]
-position = Vector2(45, 75)
+position = Vector2(-2, -36)
 shape = SubResource("CircleShape2D_3smsa")
